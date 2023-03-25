@@ -1,0 +1,57 @@
+/* page numeber 2 (about me) */
+.text-about{
+    width: 50%;
+    height: 100%;
+    padding: 2%;
+}
+.img-about-me{
+    /* position: absolute ; */
+    width: 90%;
+    height: 100%;
+}
+#part-2-img{
+    height: 100%;
+    width: 50%;
+    padding-top: 10%;
+    /* padding-bottom: 0%; */
+}
+.head-box{
+    padding: 3%;
+}
+.mean-box{
+    height: 100px;
+    width:400px;
+    padding: 12% 3%;
+}
+@media (max-width: 1285px){
+    .selc-skill-{
+        /* flex-direction: column !important; */
+        height: 1000px;
+        
+
+    }
+    .head-box{
+        margin: 2%;
+
+    }
+    .box3{
+        text-align: center;
+        justify-content: center;}
+     .mean-box{ flex-direction: column;
+
+        }
+}
+
+@media (max-width: 500px){
+    .selc-skill-{
+        height: 1350px;
+    }
+}
+@media (max-width: 350px){
+    .selc-skill-{
+        height: 1650px;
+    }
+}
+
+
+
